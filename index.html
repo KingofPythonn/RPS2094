@@ -7,12 +7,39 @@
     <!-- styles -->
     <link rel="stylesheet" href="./style/style.css" />
     <!-- insert bootstrap link -->
+    
     <link rel="stylesheet" href="./style/bootstrap/bootstrap.css">
     <!-- title -->
     <title>Rock Paper Scissor</title>
   </head>
   <body>
 
+    <div id="game" class="d-flex justify-content-center pb-4 mt-5 h2" style="font-family: Poppins; color: white; margin: 0;"> Rock Paper Scissors </div>
+    <div id="result" class="d-flex justify-content-center pt-4 pb-5 h2" style="font-family: poppins; color: white; margin: 0;"> YOU 0 : 0 Ai </div>
+    <div id="turn" class="d-flex justify-content-center pb-2 h2" style="font-family: poppins; color: white; margin: 0;"> Your Turn ! </div>
+
+    <form>
+      <div class=" d-flex justify-content-center ">
+        <label class="d-flex flex-column gap-3 p-4">
+          <img alt="rock" src="./assets/images/Rock.png" width="150">
+          <input type="radio" name="game" id="Rock"  style="display: none;">
+          <span class="circle"></span>
+        </label>
+        <label class="d-flex flex-column gap-3  p-4">
+          <img alt="Scissor" src="./assets/images/Scissor.png" width="150">
+          <input type="radio" name="game" id="Scissor" style="display: none;">
+          <span class="circle"></span>
+        </label>
+        <label class="d-flex flex-column gap-3  p-4">
+          <img alt="paper" src="./assets/images/Paper.png" width="150">
+          <input type="radio" name="game" id="Paper"  style="display: none;">
+          <span class="circle"></span>
+        </label>
+      </div>
+      <!-- submit button-->
+      <button id="button" type="button" class="btn btn-outline-light btn-lg mt-4" style="  margin: 0 auto; display: block; padding: 0 50px; font-family: poppinsRegular;">start</button>
+      <a id="MultiPlayer" href="" class="btn btn-light mt-4" style="background: var(--primary); color: white;display: inline; margin: 0 auto; display: block; font-family: poppinsRegular; width: 200px;"> MultiPlayer </a>
+    </form>
 
 
 
@@ -31,9 +58,6 @@
 
 
 
-
-
-    
     <!-- scripts -->
     <script src="./script/main.js"></script>
   </body>
