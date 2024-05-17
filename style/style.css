@@ -40,3 +40,6 @@ input[type="radio"]:checked + span.circle {
   background-color: #D9D9D9;
 
 }
+.bg-pri2 {
+  background-color: var(--primary2);
+}

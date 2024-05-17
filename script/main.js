@@ -97,6 +97,6 @@ button.addEventListener("click", (event) => {
         } 
     }
 
-    result.innerText = " YOU " + PlayerScore + " : " + ComputerScore + " AI ";
+    result.innerText = " YOU " + PlayerScore + " : " + ComputerScore + " Ai ";
 })
 
