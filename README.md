@@ -4,6 +4,10 @@
 
 This project aims to develop a simple Rock Paper Scissors game using pure JavaScript and Bootstrap.
 
+### LIVE
+
+this website is Live in this adress: https://kingofpythonn.github.io/RPS2094/
+
 ## Practice Phases
 
 ### Phase 1
@@ -31,16 +35,3 @@ The second phase introduces multiplayer functionality:
 5. **Result Display**: Display the game result based on actions selected by both players.
 
 Please note that for Phase 2, there is no predefined design. Focus on functionality and user experience.
-
-## Getting Started
-
-To get started with the project, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Open the project directory in your preferred code editor.
-3. Start implementing the game according to the provided guidelines.
-4. Test your implementation thoroughly to ensure it functions correctly.
-
-## Good Luck!
-
-Best of luck with your Rock Paper Scissors game development! If you have any questions or need assistance, feel free to reach out.
